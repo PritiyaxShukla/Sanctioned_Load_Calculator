@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 
 user_type = st.selectbox("For what type of load you are calculating",('Home','Industry'))
+
+st.image('Electricity Bill Demand.jpg')
     
 
 option = np.arange(1,10000)
